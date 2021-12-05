@@ -1,0 +1,28 @@
+body{
+    background:black;
+    font-family:monospace;
+    text-align:center;
+}
+h1,h2{
+    color: bisque;
+}
+.kotak1{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+}
+.kotak2{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+   /* matrix(scaleX(),skewY(),skewX(),scaleX(),translateX(),translateY())*/
+    -ms-transform:matrix(1,2,-1,1,5,4);/*support IE 9*/
+    -webkit-transform:matrix(1,2,-1,1,5,4);/*support safari*/
+    transform:matrix(1,2,-1,1,5,4);/*standard syntax*/
+}

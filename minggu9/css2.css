@@ -1,0 +1,43 @@
+body{
+    background:black;
+    font-family:monospace;
+    text-align:center;
+}
+h1{
+    color: bisque;
+}
+.ketengah{
+    margin:10px auto;
+    width:1150px;
+}
+.kotak{
+    background:cadetblue;
+    width:500px;
+    float:left;
+    height:250px;
+    margin:30px;
+}
+.gradient1{
+    background: linear-gradient(blue,purple); /*standar syntax*/
+    background:-webkit-linear-gradient(blue,purple); /*for safari 5.1 to 5.0*/
+    background:-o-linear-gradient(blue,purple); /*for opera 11.1 to 12.0*/
+    background:-moz-linear-gradient(blue,purple); /*for firefox 3.6 to 15*/
+}
+.gradient2{
+    background: linear-gradient(right ,blue,black,purple); /*standar syntax*/
+    background:-webkit-linear-gradient(left ,blue,black,purple); /*for safari 5.1 to 5.0*/
+    background:-o-linear-gradient(right ,blue,black,purple); /*for opera 11.1 to 12.0*/
+    background:-moz-linear-gradient(right, blue,black,purple); /*for firefox 3.6 to 15*/
+}
+.gradient3{
+    background: radial-gradient(blue,black,purple); /*standar syntax*/
+    background:-webkit-radial-gradient(blue,black,purple); /*for safari 5.1 to 5.0*/
+    background:-o-radial-gradient(blue,black,purple); /*for opera 11.1 to 12.0*/
+    background:-moz-radial-gradient(blue,black,purple); /*for firefox 3.6 to 15*/
+}
+.gradient4{
+    background: radial-gradient(circle,blue,black,purple); /*standar syntax*/
+    background:-webkit-radial-gradient(circle,blue,black,purple); /*for safari 5.1 to 5.0*/
+    background:-o-radial-gradient(circle,blue,black,purple); /*for opera 11.1 to 12.0*/
+    background:-moz-radial-gradient(circle,blue,black,purple); /*for firefox 3.6 to 15*/
+}

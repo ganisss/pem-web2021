@@ -1,0 +1,61 @@
+body{
+    background:black;
+    font-family:monospace;
+    text-align:center;
+}
+h1,h2{
+    color: bisque;
+}
+.kotak1{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+}
+.kotak2{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+    -ms-transform:skew(20deg);/*support IE 9*/
+    -webkit-transform:skew(20deg);/*support safari*/
+    transform: skew(20deg);/*standard syntax*/
+}
+.kotak3{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+    -ms-transform:skew(30deg,20deg);/*support IE 9*/
+    -webkit-transform:skew(30deg,20deg);/*support safari*/
+    transform: skew(30deg,20deg);/*standard syntax*/
+}
+
+.kotak4{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+    -ms-transform:skewY(20deg);/*support IE 9*/
+    -webkit-transform:skewY(20deg);/*support safari*/
+    transform: skewY(20deg);/*standard syntax*/
+}
+.kotak5{
+    background: cadetblue;
+    padding:20px;
+    float:left;
+    margin:50px;
+    width:150px;
+    height:150px;
+    -ms-transform:skewX(20deg);/*support IE 9*/
+    -webkit-transform:skewX(20deg);/*support safari*/
+    transform: skewX(20deg);/*standard syntax*/
+}
